@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*-----------------------------This Is Css hover Slide Color Effect-----------------------------*/
+/*.main{ 
+	position:raltive;
+	height:250px;
+	width:400px;	background-image:url(image.jpg);}
+.child{
+	position:relative;
+	bottom:0;
+	left:0;
+	right:0;
+	transition:0.8s;
+	height:100%;
+	width:0%;
+	background-color:rgba(255,255,255,0.4);
+	}
+.main:hover .child{
+	width:100%;
+	background-color:rgba(255,255,255,0.0);
+	}  
+	
+	
+	*/
+	
+	
+	
+	
+	
+	
+	
+		/*-----------------------------This Is Html hover Slide Color Effect-----------------------------*/
+.main{ 
+	position:raltive;
+	height:250px;
+	width:400px;}
+.child{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	transition:0.8s;
+	height:100%;
+	width:0%;
+	background-color:rgba(255,255,255,0.4);
+	}
+.img{
+	height:100%;
+	width:100%;}
+.main:hover .child{
+	width:100%;
+	}  

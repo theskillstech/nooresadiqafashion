@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+#wrapper {
+	height: 2500;
+	width: 100%;
+	margin: 0 auto;
+}
+.navbar {
+	background-color: white;
+	outline-color: navy;
+	border: none;
+}
+.navbar .navbar-nav li a {
+	color: black;
+	text-align: center;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .navbar-nav li a:hover {
+	background-color: red;
+	color: rgba(255,255,255,1);
+}
+.form-control {
+	background-color: black;
+	outline-color: snow;
+	color: white;
+	outline: none;
+	border: none;
+}
+#banner {
+	background-image:url("../../../Images og Banner And Slider/1s.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 100%;
+	position: relative;
+	top: 10px;
+	
+	background-repeat: no-repeat;
+	
+}
+#sec-b1 {
+	height: 400px;
+	width: 100%;
+	background-color: rgba(216,216,216,0.92);
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	box-shadow: 0px 10px 05px 10px;
+}
+.box-text {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.1);
+	transition: 0.2s;
+	position: absolute;
+	z-index: 1;
+	
+}
+.box-text:hover {
+	background-color: rgba(0,0,0,0.3);
+	
+}
+#box3 {
+	height: 250px;
+	width: 100%;
+	float: left;
+	position: relative;
+	top: 30px;
+	margin-top: 10px;
+	border-bottom-left-radius: 05px;
+	border: solid 2px rgba(240,240,240,1.00);
+	box-shadow: 0px 05px 05px 10px;
+}
+#h2-heading {
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: bolder;
+}
+#ohline {
+	border-bottom: solid 2px rgba(214,214,214,1.00);
+	height: 5px;
+	width: 200px;
+	transition: 0.5s;
+	border-radius: 05px;
+}
+#ohline:hover {
+	width: 100px;
+	border-radius: 05px;
+	background-color: blue;
+	color: cadetblue;
+}
+#toplong-4 {
+	background-color: wheat;
+	height: 400px;
+	width: 50%;
+	float: left;
+	position: relative;
+	top: 30px;
+	margin-top: 10px;
+	border-bottom-left-radius: 15px;
+	border: solid 2px rgba(240,240,240,1.00);
+	box-shadow: 0px 01px 01px 04px;
+}
+#About {
+	height: 300px;
+	width: 100%;
+	float: left;
+}
+#About-article {
+	font-size: 14px;
+	color: black;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	border: solid 1px rgba(240,240,240,1.00);
+	border: none;
+}
+footer{ height: 330px; width: 50%; float: left;}
+#h3-heading{color:rgba(66,66,66,1.00); font-size: 20px; text-align: center; font-family: 'Fira Sans', sans-serif;}
+
+	.middle
+		{
+			position: absolute;
+			text-align: center;
+						
+		}
+	
+		.btnns{
+			display:inline-block;
+			width: 60px;
+			height: 60px;
+			background-color: lightgrey;
+			border-radius:50%;
+			box-shadow: 0px 5px 15px -5px #00000070;
+			overflow: hidden;
+			position: relative;
+			color: #3498db;
+	        margin: 02px;
+		}
+		.btnns i{line-height: 60px; font-size: 22px; transition: 0.2s linear;}
+		.btnns:hover i{
+			
+			transform: scale(1.3);
+			color: #f1f1f1;
+			
+		}
+	
+		.btnns::before{
+			
+			
+			content: "";
+			position: absolute;
+			width: 120%;
+			height: 120%;
+			background-color: #3498db;
+			transform: rotate(45deg);
+			left: 90%;
+			top: 90%;
+		}
+		.btnns:hover::before{
+			animation: aaa 0.7s 1;
+			top: -10%;
+			left: -10%;
+		}
+		@keyframes aaa {
+			
+			0%{
+					top: -110%;
+			left: 90%;
+			}50%{
+				top: 10%;
+			left: -30%;
+				
+			}100%{
+				top: -10%;
+			left: -10%;
+			}
+		}
+/*--------------------------------2nd Page Features Started ----------------------------*/
+#s-b {
+	height: 600px;
+	width: 100%;
+	background-position: center;
+	position: relative;
+	top: 30px;
+	float: left;
+	border-radius: 02px;
+}
+#Bar-Slides {
+	height: 400px;
+	width: 25%;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	border: solid rgba(239,239,239,1.00);
+	border-bottom-left-radius: 15px;
+	border: none;
+	outline: none;
+}
+#Slides-bar_images{background-position: center; background-repeat: no-repeat; background-size: cover;}
+
+#left-chefron {
+	height: 40px;
+	width: 40px;
+	float: right;
+	position: relative;
+	font-size: 20px;
+	top: -225px;
+	background-color: lightgrey;
+	border:none;
+}
+#right-chefron {
+	height: 40px;
+	width: 40px;
+	float: left;
+	position: relative;
+	font-size: 20px;
+	top: -225px;
+	left: 01px;
+	background-color: lightgrey;
+	border:none;
+}
+/*--------------------------------2nd Page Features Finish ----------------------------*/
+/*--------------------------------3rd Page Gallery Started ----------------------------*/
+#uparboxs{
+	height: 300px;
+	width: 100%;
+	float: left;
+	position: relative;
+	border-bottom-left-radius: 05px;
+	border: solid 2px rgba(240,240,240,1.00);
+	box-shadow: 0px 02px 02px 04px;
+	opacity: 0.7;
+}
+#h2-Gallery {
+	color: lightskyblue;
+	font-size: 26px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: bolder;
+}
